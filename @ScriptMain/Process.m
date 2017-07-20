@@ -1,0 +1,7 @@
+%AuxViewÕº–Œ÷–
+function Process(obj,ViewObj)
+InputFile=ViewObj.APView.Input;
+n=ViewObj.APView.Rate;       %—πÀı¬ 
+OutputFile=ViewObj.APView.Output;
+ReSamFilter(InputFile,OutputFile,n);
+end
