@@ -61,7 +61,7 @@ classdef MainPanelView<handle
             PushButtonString{1}={'计算'};
             PushButtonString{2}={'作稳定图'};
             PushButtonString{3}={'绘制振型图'};
-            CopyrightInfo='软件版本1.2 beta Copyright 2015 林迪南';  %版本，版权信息文字
+            CopyrightInfo=['Copyright 2015-' datestr(now,'yyyy') ' 林迪南'];  %版本，版权信息文字
 
             mainLayout=uiextras.VBox('Parent',hfig,'Padding',5,'Spacing',10);   %界面主框架
             
